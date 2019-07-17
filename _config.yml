@@ -8,10 +8,10 @@ description: >
 url: https://skytalks.info
 
 header: yes
-header_sm: images/DESERT-ROAD-NEVADA-HALF.jpg
-header_med: images/DESERT-ROAD-NEVADA-HALF.jpg
-header_large: images/DESERT-ROAD-NEVADA-HALF.jpg
-header_xl: images/DESERT-ROAD-NEVADA-HALF.jpg
+header_sm: images/header.jpg
+header_med: images/header.jpg
+header_large: images/header.jpg
+header_xl: images/header.jpg
 
 # Exclude our ruby stuff and other files
 exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, .last_optimized, CNAME, README.md, LICENSE]
