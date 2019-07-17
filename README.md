@@ -1,7 +1,9 @@
-Skytalks Demo Site
+BSidesSF Website
 =================
 
-Mostly stolen from [Bsidessf.org](https://bsidessf.org)
+Theme is based on [Slim Pickins](https://chrisanthropic.github.io/slim-pickins-jekyll-theme/).
+
+Thanks to [ShmooCon](http://shmoocon.org/) for some navigation and content help.
 
 Running Locally
 =================

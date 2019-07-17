@@ -1,0 +1,46 @@
+name: Skytalks
+author: Skytalks
+
+keywords: skytalks, infosec, conference, security, defcon
+description: >
+  Skytalks is an off the record, conference inside a conference at DefCon.
+
+url: https://skytalks.info
+
+header: yes
+header_sm: images/DESERT-ROAD-NEVADA-HALF.jpg
+header_med: images/DESERT-ROAD-NEVADA-HALF.jpg
+header_large: images/DESERT-ROAD-NEVADA-HALF.jpg
+header_xl: images/DESERT-ROAD-NEVADA-HALF.jpg
+
+# Exclude our ruby stuff and other files
+exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, .last_optimized, CNAME, README.md, LICENSE]
+include: [.well-known]
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+destination: _site
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: atom.xml
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /news/:year/:month/:title
+
+#### SEO Stuff
+# Google Analytics
+google_analytics:
+
+# Twitter Cards
+twitter_user: "@dcskytalks"
+twitter_card: true
+twitter_image: /images/
