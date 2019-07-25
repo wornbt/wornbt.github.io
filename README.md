@@ -1,9 +1,9 @@
-BSidesSF Website
+Skytalks Website
 =================
 
 Theme is based on [Slim Pickins](https://chrisanthropic.github.io/slim-pickins-jekyll-theme/).
 
-Thanks to [ShmooCon](http://shmoocon.org/) for some navigation and content help.
+Thanks to [BsidesSF](http://bsidessf.org/) as we basically stole most of the code from them
 
 Running Locally
 =================
